@@ -1,0 +1,71 @@
+<!DOCTYPE html lang="he">
+
+<head>
+	<title>posting service- stage 1</title>
+	<meta charset="UTF-8">
+	<style>
+		table, td, th {
+			border: 1px solid black;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		input{
+			float:right;
+			margin-bottom:10px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div style="width:100%;height:40px;background-color:#eff2f7;padding-top:15px"> <!--header-->
+			<a href="" target="_top" style="float:left;margin-left:40px;"> logo </a> <!-- this is the logo and it links to the homepage -->
+			<div style="float:right;margin-left:40px;margin-right:40px;"> <!--buttons: profile, name, messages, options -->
+				<a href="">user name</a>
+				<a href="">profile pic</a>
+				<a href="">options</a>
+				<a href="">messages/notifications</a>
+			</div> 
+
+			<div style="float:right;margin-left:20px;"> <!--button group-->
+				<a href="">button 1</a>
+				<a href="">button 2</a>
+				<a href="">button 3</a>
+			</div> 
+		</div> <!-- end header-->
+
+	</header>
+	<section>
+		<h1 style="text-align:center;">תן לקהילה!</h1>
+		<p style="text-align:center;">תן, תקבל, תחסוך כסף</p>
+ 		<!-- input field for choosing a time -->
+		<div style="width:350px;height:500px;margin-right:auto;margin-left:auto;">
+			<form action="" method="post">
+				<input type="text" name="my-service" value="אני רוצה לתת" style="float:right;margin-bottom:10px;">
+				<br>
+				<br>
+				<select name="service-type" style="float:right;margin-bottom:10px;">
+					<option value="categorie"> categorie </option>
+					<option value="option-1"> option 1 </option>
+					<option value="option-2"> option 2 </option>
+					<option value="option-3"> option 3 </option>
+				</select> 
+				<br>
+				<br>
+				<input type="text" name="price" value="מחיר" style="float:right;margin-bottom:10px;">
+				<br>
+				<br>
+				<input type="text" name="place" value="מקום" style="float:right;margin-bottom:10px;">
+				<br>
+				<br>
+				<input type="submit" value="submit" style="float:right;margin-bottom:10px;">
+
+
+			</form>
+		</div>
+	</section>
+	<footer>
+	</footer>
+</body>
+</html>
